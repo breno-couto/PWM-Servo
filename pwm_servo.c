@@ -26,7 +26,7 @@ void oscilar_led(uint pulso);
 
 int main()
 {
-    stdio_init_all();
+    stdio_init_all();// inicia programa
     sleep_ms(2000); // Delay inicial para estabilizar o sistema
 
     inicializar_servo();
