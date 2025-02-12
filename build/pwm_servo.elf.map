@@ -2380,7 +2380,7 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x17c0
+.text           0x10000100     0x17c8
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2452,194 +2452,194 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000308       0x30 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
                 0x10000308                inicializar_led
  .text.startup.main
-                0x10000338      0x1b4 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
+                0x10000338      0x1bc CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
                 0x10000338                main
  .text.gpio_set_function
-                0x100004ec       0x34 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004ec                gpio_set_function
- .text.panic    0x10000520       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x10000520                panic
+                0x100004f4       0x34 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004f4                gpio_set_function
+ .text.panic    0x10000528       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x10000528                panic
  .text.hw_claim_or_assert
-                0x10000550       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
-                0x10000550                hw_claim_or_assert
+                0x10000558       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x10000558                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x10000594       0x18 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000594                next_striped_spin_lock_num
+                0x1000059c       0x18 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000059c                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x100005ac       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x100005ac                spin_locks_reset
+                0x100005b4       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x100005b4                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x100005c8       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005c8                runtime_init_per_core_irq_priorities
+                0x100005d0       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005d0                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x100005ec       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005ec                irq_set_enabled
+                0x100005f4       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005f4                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x10000610       0x54 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000610                irq_set_exclusive_handler
+                0x10000618       0x54 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000618                irq_set_exclusive_handler
  .text.lock_init
-                0x10000664       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
-                0x10000664                lock_init
+                0x1000066c       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x1000066c                lock_init
  .text.runtime_init_mutex
-                0x10000674       0x50 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10000674                runtime_init_mutex
+                0x1000067c       0x50 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x1000067c                runtime_init_mutex
  .text.sleep_until_callback
-                0x100006c4       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100006cc       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x100006f4      0x2fc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100006fc      0x2fc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x100009f0       0xdc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x100009f0                runtime_init_default_alarm_pool
+                0x100009f8       0xdc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100009f8                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10000acc       0xb0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000acc                alarm_pool_add_alarm_at_force_in_context
+                0x10000ad4       0xb0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000ad4                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10000b7c       0x74 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000b7c                alarm_pool_cancel_alarm
+                0x10000b84       0x74 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000b84                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x10000bf0       0xd8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000bf0                sleep_until
+                0x10000bf8       0xd8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000bf8                sleep_until
  .text.sleep_ms
-                0x10000cc8       0x38 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000cc8                sleep_ms
+                0x10000cd0       0x38 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000cd0                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000d00       0xe0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000d00                best_effort_wfe_or_timeout
+                0x10000d08       0xe0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000d08                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x10000de0       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000de0                timer_hardware_alarm_claim
+                0x10000de8       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000de8                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x10000df4       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000df4                timer_time_us_64
+                0x10000dfc       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000dfc                timer_time_us_64
  .text.time_us_64
-                0x10000e04       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000e04                time_us_64
+                0x10000e0c       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000e0c                time_us_64
  .text.busy_wait_until
-                0x10000e18       0x20 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10000e18                busy_wait_until
+                0x10000e20       0x20 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000e20                busy_wait_until
  .text.clock_configure_int_divider
-                0x10000e38       0xf4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10000e38                clock_configure_int_divider
+                0x10000e40       0xf4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10000e40                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10000f2c       0xe8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10000f2c                clock_configure_undivided
+                0x10000f34       0xe8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10000f34                clock_configure_undivided
  .text.clock_get_hz
-                0x10001014        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001014                clock_get_hz
+                0x1000101c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000101c                clock_get_hz
  .text.pll_init
-                0x10001020       0xa4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001020                pll_init
+                0x10001028       0xa4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001028                pll_init
  .text.tick_start
-                0x100010c4       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x100010c4                tick_start
+                0x100010cc       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x100010cc                tick_start
  .text.rom_func_lookup
-                0x100010d4       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100010d4                rom_func_lookup
+                0x100010dc       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100010dc                rom_func_lookup
  .text.rom_data_lookup
-                0x100010e4       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100010e4                rom_data_lookup
+                0x100010ec       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100010ec                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100010f4       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100010f4                rom_funcs_lookup
+                0x100010fc       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100010fc                rom_funcs_lookup
  .text.xosc_init
-                0x10001138       0x28 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001138                xosc_init
+                0x10001140       0x28 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001140                xosc_init
  .text.first_per_core_initializer
-                0x10001160        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001168        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x10001164        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001164                hard_assertion_failure
+                0x1000116c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000116c                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10001170       0x28 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001170                runtime_run_initializers
+                0x10001178       0x28 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001178                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x10001198       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001198                runtime_init_early_resets
+                0x100011a0       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100011a0                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x100011c4       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100011c4                runtime_init_usb_power_down
+                0x100011cc       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100011cc                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x100011e0       0x20 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100011e0                runtime_init_post_clock_resets
+                0x100011e8       0x20 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100011e8                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10001200       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001200                runtime_init_rp2040_gpio_ie_disable
+                0x10001208       0x14 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001208                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x10001214        0x8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001214                runtime_init_spin_locks_reset
+                0x1000121c        0x8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000121c                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x1000121c       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000121c                runtime_init_install_ram_vector_table
+                0x10001224       0x1c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001224                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10001238       0xd8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10001238                runtime_init_clocks
- .text          0x10001310       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001240       0xd8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x10001240                runtime_init_clocks
+ .text          0x10001318       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_uidiv
-                0x10001320       0x4c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10001320                __wrap___aeabi_uidiv
-                0x10001320                __wrap___aeabi_uidivmod
-                0x10001320                div_u32u32
-                0x10001320                divmod_u32u32
-                0x10001328                divmod_u32u32_unsafe
-                0x10001350                divmod_u32u32_savestate
+                0x10001328       0x4c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10001328                __wrap___aeabi_uidiv
+                0x10001328                __wrap___aeabi_uidivmod
+                0x10001328                div_u32u32
+                0x10001328                divmod_u32u32
+                0x10001330                divmod_u32u32_unsafe
+                0x10001358                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x1000136c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10001374        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .text.__aeabi_double_init
-                0x10001378       0xa0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x10001378                __aeabi_double_init
+                0x10001380       0xa0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10001380                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001418       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001418                double_table_shim_on_use_helper
+                0x10001420       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001420                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10001444       0x32 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10001444                __wrap___aeabi_lmul
- *fill*         0x10001476        0x2 
+                0x1000144c       0x32 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x1000144c                __wrap___aeabi_lmul
+ *fill*         0x1000147e        0x2 
  .text.missing_float_func_shim
-                0x10001478        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10001480        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .text.__aeabi_float_init
-                0x10001484       0x5c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x10001484                __aeabi_float_init
- .text          0x100014e0       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100014e0                __aeabi_mem_init
- .text.memcpy   0x100014f0        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100014f0                __wrap_memcpy
-                0x100014f0                __wrap___aeabi_memcpy
+                0x1000148c       0x5c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1000148c                __aeabi_float_init
+ .text          0x100014e8       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100014e8                __aeabi_mem_init
+ .text.memcpy   0x100014f8        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100014f8                __wrap_memcpy
+                0x100014f8                __wrap___aeabi_memcpy
  .text._out_char
-                0x100014fc       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10001504       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x1000150c       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
-                0x1000150c                weak_raw_vprintf
- .text._exit    0x1000153c        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x1000153c                _exit
- .text.exit     0x10001540        0x8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10001540                exit
+                0x10001514       0x30 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10001514                weak_raw_vprintf
+ .text._exit    0x10001544        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001544                _exit
+ .text.exit     0x10001548        0x8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001548                exit
  .text.runtime_init
-                0x10001548       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10001548                runtime_init
+                0x10001550       0x2c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10001550                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x10001574       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000157c       0x10 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10001584       0x94 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000158c       0x94 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x10001618      0x100 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001618                stdio_put_string
+                0x10001620      0x100 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001620                stdio_put_string
  .text.stdio_init_all
-                0x10001718        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10001718                stdio_init_all
+                0x10001720        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001720                stdio_init_all
  .text.__wrap_putchar
-                0x1000171c       0x98 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000171c                __wrap_putchar
-                0x1000171c                stdio_putchar
+                0x10001724       0x98 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001724                __wrap_putchar
+                0x10001724                stdio_putchar
  .text.__wrap_puts
-                0x100017b4       0x3c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100017b4                stdio_puts
-                0x100017b4                __wrap_puts
- .text.strlen   0x100017f0       0x5c C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x100017f0                strlen
+                0x100017bc       0x3c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100017bc                stdio_puts
+                0x100017bc                __wrap_puts
+ .text.strlen   0x100017f8       0x5c C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x100017f8                strlen
  *(.fini)
- .fini          0x1000184c        0x4 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
-                0x1000184c                _fini
- .fini.__stub   0x10001850       0x30 linker stubs
+ .fini          0x10001854        0x4 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
+                0x10001854                _fini
+ .fini.__stub   0x10001858       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2650,154 +2650,154 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10001880                        . = ALIGN (0x4)
-                0x10001880                        PROVIDE (__preinit_array_start = .)
+                0x10001888                        . = ALIGN (0x4)
+                0x10001888                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10001880        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001880                __pre_init_runtime_init_early_resets
+                0x10001888        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001888                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10001884        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001884                __pre_init_runtime_init_usb_power_down
+                0x1000188c        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000188c                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10001888        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001890        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x1000188c        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001894        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x10001890        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001898        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x10001894        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x1000189c        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x10001898        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001898                __pre_init_runtime_init_clocks
- .preinit_array.00600
-                0x1000189c        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000189c                __pre_init_runtime_init_post_clock_resets
- .preinit_array.00700
                 0x100018a0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100018a0                __pre_init_runtime_init_rp2040_gpio_ie_disable
- .preinit_array.01000
+                0x100018a0                __pre_init_runtime_init_clocks
+ .preinit_array.00600
                 0x100018a4        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100018a4                __pre_init_runtime_init_spin_locks_reset
- .preinit_array.01100
-                0x100018a8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x100018a8                __pre_init_runtime_init_mutex
- .preinit_array.10080
+                0x100018a4                __pre_init_runtime_init_post_clock_resets
+ .preinit_array.00700
+                0x100018a8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100018a8                __pre_init_runtime_init_rp2040_gpio_ie_disable
+ .preinit_array.01000
                 0x100018ac        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100018ac                __pre_init_runtime_init_install_ram_vector_table
+                0x100018ac                __pre_init_runtime_init_spin_locks_reset
+ .preinit_array.01100
+                0x100018b0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x100018b0                __pre_init_runtime_init_mutex
+ .preinit_array.10080
+                0x100018b4        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100018b4                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x100018b0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x100018b0                __pre_init_runtime_init_default_alarm_pool
+                0x100018b8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100018b8                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x100018b4        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100018b4                __pre_init_first_per_core_initializer
+                0x100018bc        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100018bc                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x100018b8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x100018b8                __pre_init_runtime_init_per_core_irq_priorities
+                0x100018c0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100018c0                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x100018bc                        PROVIDE (__preinit_array_end = .)
-                0x100018bc                        . = ALIGN (0x4)
-                0x100018bc                        PROVIDE (__init_array_start = .)
+                0x100018c4                        PROVIDE (__preinit_array_end = .)
+                0x100018c4                        . = ALIGN (0x4)
+                0x100018c4                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x100018bc        0x4 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100018c0                        PROVIDE (__init_array_end = .)
-                0x100018c0                        . = ALIGN (0x4)
+ .init_array    0x100018c4        0x4 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100018c8                        PROVIDE (__init_array_end = .)
+                0x100018c8                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x100018c0        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100018c0                        . = ALIGN (0x4)
+ .eh_frame      0x100018c8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100018c8                        . = ALIGN (0x4)
 
-.glue_7         0x100018c0        0x0
- .glue_7        0x100018c0        0x0 linker stubs
+.glue_7         0x100018c8        0x0
+ .glue_7        0x100018c8        0x0 linker stubs
 
-.glue_7t        0x100018c0        0x0
- .glue_7t       0x100018c0        0x0 linker stubs
+.glue_7t        0x100018c8        0x0
+ .glue_7t       0x100018c8        0x0 linker stubs
 
-.vfp11_veneer   0x100018c0        0x0
- .vfp11_veneer  0x100018c0        0x0 linker stubs
+.vfp11_veneer   0x100018c8        0x0
+ .vfp11_veneer  0x100018c8        0x0 linker stubs
 
-.v4_bx          0x100018c0        0x0
- .v4_bx         0x100018c0        0x0 linker stubs
+.v4_bx          0x100018c8        0x0
+ .v4_bx         0x100018c8        0x0 linker stubs
 
-.iplt           0x100018c0        0x0
- .iplt          0x100018c0        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100018c8        0x0
+ .iplt          0x100018c8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100018c0      0x108
+.rodata         0x100018c8      0x108
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.panic.str1.4
-                0x100018c0       0xa4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x100018c8       0xa4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
                                  0x12 (size before relaxing)
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10001964       0x22 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000196c       0x22 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10001964        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000196c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10001964       0x18 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x1000196c       0x18 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x10001964        0x1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1000196c        0x1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.str1.4
-                0x10001964       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000196c       0x44 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x10001964        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000196c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x10001970        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10001978        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_60
-                0x1000197c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10001984        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x10001988        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10001990        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x10001994        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000199c        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x100019a0        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100019a8        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x100019ac        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100019b4        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x100019b8        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100019c0        0xc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.crlf_str.0
-                0x100019c4        0x2 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100019c8                        . = ALIGN (0x4)
- *fill*         0x100019c6        0x2 
+                0x100019cc        0x2 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100019d0                        . = ALIGN (0x4)
+ *fill*         0x100019ce        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100019c8                        . = ALIGN (0x4)
+                0x100019d0                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100019c8                        __exidx_start = .
+                0x100019d0                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100019c8                        __exidx_end = .
-                0x100019c8                        . = ALIGN (0x4)
-                0x100019c8                        __binary_info_start = .
+                0x100019d0                        __exidx_end = .
+                0x100019d0                        . = ALIGN (0x4)
+                0x100019d0                        __binary_info_start = .
 
-.binary_info    0x100019c8       0x20
+.binary_info    0x100019d0       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x100019c8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr78
-                0x100019cc        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr60
                 0x100019d0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr54
+ .binary_info.keep.__bi_ptr78
                 0x100019d4        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr48
+ .binary_info.keep.__bi_ptr60
                 0x100019d8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr42
+ .binary_info.keep.__bi_ptr54
                 0x100019dc        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr34
+ .binary_info.keep.__bi_ptr48
                 0x100019e0        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .binary_info.keep.__bi_ptr26
+ .binary_info.keep.__bi_ptr42
                 0x100019e4        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr34
+                0x100019e8        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .binary_info.keep.__bi_ptr26
+                0x100019ec        0x4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
-                0x100019e8                        __binary_info_end = .
+                0x100019f0                        __binary_info_end = .
 
-.rel.dyn        0x100019e8        0x0
- .rel.iplt      0x100019e8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100019e8                        . = ALIGN (0x4)
+.rel.dyn        0x100019f0        0x0
+ .rel.iplt      0x100019f0        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100019f0                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2811,7 +2811,7 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0      0x128 load address 0x100019e8
+.data           0x200000c0      0x128 load address 0x100019f0
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2857,23 +2857,23 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x200001e8                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x200001e8        0x0 load address 0x10001b10
+                0x200001e8        0x0 load address 0x10001b18
  .tm_clone_table
                 0x200001e8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200001e8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x200001e8        0x0 load address 0x10001b10
+.igot.plt       0x200001e8        0x0 load address 0x10001b18
  .igot.plt      0x200001e8        0x0 C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x200001e8        0x0 load address 0x10001b10
+.tdata          0x200001e8        0x0 load address 0x10001b18
                 0x200001e8                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200001e8                        __tdata_end = .
                 0x200001e8                        PROVIDE (__data_end__ = .)
-                0x100019e8                        __etext = LOADADDR (.data)
+                0x100019f0                        __etext = LOADADDR (.data)
 
-.tbss           0x200001e8        0x0 load address 0x10001b10
+.tbss           0x200001e8        0x0 load address 0x10001b18
                 0x200001e8                        . = ALIGN (0x4)
                 0x200001e8                        __bss_start__ = .
                 0x200001e8                        __tls_base = .
@@ -2881,7 +2881,7 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x200001e8                        __tls_end = .
 
-.bss            0x200001e8      0x3e8 load address 0x10001b10
+.bss            0x200001e8      0x3e8 load address 0x10001b18
                 0x200001e8                        . = ALIGN (0x4)
                 0x200001e8                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -2910,26 +2910,26 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
                 0x200005d0                        . = ALIGN (0x4)
                 0x200005d0                        __bss_end__ = .
 
-.heap           0x200005d0      0x800 load address 0x10001b10
+.heap           0x200005d0      0x800 load address 0x10001b18
                 0x200005d0                        __end__ = .
                 0x200005d0                        end = __end__
  *(.heap*)
  .heap          0x200005d0      0x800 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x10001b10
+.scratch_x      0x20040000        0x0 load address 0x10001b18
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10001b10                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10001b18                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10001b10
+.scratch_y      0x20041000        0x0 load address 0x10001b18
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10001b10                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10001b18                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -2938,9 +2938,9 @@ LOAD C:/Users/BRENOC~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/1
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x10001b10        0x0
+.flash_end      0x10001b18        0x0
  *(.embedded_end_block*)
-                0x10001b10                        PROVIDE (__flash_binary_end = .)
+                0x10001b18                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3139,40 +3139,40 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .comment       0x00000045       0x46 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_info     0x00000000    0x1a917
- .debug_info    0x00000000     0x1961 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
- .debug_info    0x00001961     0x2437 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00003d98      0x1bf CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x00003f57      0x995 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_info    0x000048ec      0x458 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00004d44      0x245 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x00004f89     0x21a8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00007131      0x15f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00007290     0x2803 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_info    0x00009a93     0x485e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_info    0x0000e2f1     0x2b11 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00010e02     0x2935 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00013737      0x4e5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x00013c1c      0x248 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x00013e64      0x633 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00014497      0x1cc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00014663      0x21a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0001487d      0x795 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x00015012      0x780 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x00015792       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x000157b5       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x000157d8       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x000157fb      0x2d0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x00015acb       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x00015aef       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00015b13       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x00015b36      0x2bc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x00015df2       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00015e15      0x2e2 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x000160f7     0x211a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00018211       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x00018234      0xb54 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x00018d88     0x1b8f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_info     0x00000000    0x1a986
+ .debug_info    0x00000000     0x19d0 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
+ .debug_info    0x000019d0     0x2437 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00003e07      0x1bf CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x00003fc6      0x995 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x0000495b      0x458 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00004db3      0x245 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x00004ff8     0x21a8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x000071a0      0x15f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000072ff     0x2803 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00009b02     0x485e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_info    0x0000e360     0x2b11 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00010e71     0x2935 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x000137a6      0x4e5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00013c8b      0x248 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x00013ed3      0x633 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00014506      0x1cc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000146d2      0x21a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x000148ec      0x795 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x00015081      0x780 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x00015801       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00015824       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x00015847       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x0001586a      0x2d0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x00015b3a       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x00015b5e       0x24 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00015b82       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x00015ba5      0x2bc CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x00015e61       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00015e84      0x2e2 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x00016166     0x211a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00018280       0x23 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x000182a3      0xb54 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x00018df7     0x1b8f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_abbrev   0x00000000     0x4bd4
  .debug_abbrev  0x00000000      0x3a1 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
@@ -3210,53 +3210,53 @@ LOAD linker stubs
  .debug_abbrev  0x000045ed      0x5e7 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_loclists
-                0x00000000     0xfcd2
+                0x00000000     0xfd62
  .debug_loclists
-                0x00000000      0xf8c CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
+                0x00000000     0x101c CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
  .debug_loclists
-                0x00000f8c     0x1a03 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000101c     0x1a03 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x0000298f      0x36e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x00002a1f      0x36e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00002cfd       0xf1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x00002d8d       0xf1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00002dee       0x7d CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00002e7e       0x7d CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00002e6b     0x116f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x00002efb     0x116f CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00003fda       0x41 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x0000406a       0x41 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x0000401b      0xafa CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x000040ab      0xafa CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x00004b15     0x24bd CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x00004ba5     0x24bd CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00006fd2     0x1a12 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x00007062     0x1a12 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x000089e4     0x28a5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00008a74     0x28a5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000b289      0x1e0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000b319      0x1e0 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000b469       0x47 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000b4f9       0x47 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000b4b0      0x38a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000b540      0x38a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000b83a       0x48 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000b8ca       0x48 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000b882       0x7e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000b912       0x7e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000b900       0xba CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000b990       0xba CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000b9ba       0x74 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000ba4a       0x74 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000ba2e       0x35 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000babe       0x35 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000ba63       0x4e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000baf3       0x4e CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000bab1     0x2f65 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x0000bb41     0x2f65 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000ea16      0x431 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x0000eaa6      0x431 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x0000ee47      0xe8b CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000eed7      0xe8b CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_aranges  0x00000000      0xd80
  .debug_aranges
@@ -3389,40 +3389,40 @@ LOAD linker stubs
  .debug_rnglists
                 0x000026f7      0x297 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
-.debug_line     0x00000000    0x152cb
- .debug_line    0x00000000      0xd6b CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
- .debug_line    0x00000d6b     0x1cc7 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00002a32      0x29c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00002cce      0x960 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_line    0x0000362e      0x4f6 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00003b24      0x3d8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00003efc     0x1752 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000564e      0x303 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00005951     0x1b64 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000074b5     0x318a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_line    0x0000a63f     0x1d76 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000c3b5     0x1e4c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000e201      0x52a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000e72b      0x362 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x0000ea8d      0x487 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000ef14      0x37b CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000f28f      0x331 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000f5c0      0x56c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x0000fb2c      0x5a3 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x000100cf      0x107 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000101d6      0x2a9 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x0001047f      0x3f3 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00010872      0x586 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x00010df8       0x5d CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00010e55       0x61 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x00010eb6      0x3a8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x0001125e      0x442 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x000116a0       0x94 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00011734      0x207 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x0001193b     0x1ba1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000134dc       0xa5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00013581      0x8a6 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x00013e27     0x14a4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+.debug_line     0x00000000    0x152d3
+ .debug_line    0x00000000      0xd73 CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
+ .debug_line    0x00000d73     0x1cc7 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00002a3a      0x29c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00002cd6      0x960 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00003636      0x4f6 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00003b2c      0x3d8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00003f04     0x1752 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00005656      0x303 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00005959     0x1b64 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000074bd     0x318a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_line    0x0000a647     0x1d76 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000c3bd     0x1e4c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000e209      0x52a CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000e733      0x362 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x0000ea95      0x487 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000ef1c      0x37b CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000f297      0x331 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000f5c8      0x56c CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x0000fb34      0x5a3 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x000100d7      0x107 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000101de      0x2a9 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00010487      0x3f3 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x0001087a      0x586 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x00010e00       0x5d CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x00010e5d       0x61 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x00010ebe      0x3a8 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x00011266      0x442 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000116a8       0x94 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0001173c      0x207 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x00011943     0x1ba1 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000134e4       0xa5 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00013589      0x8a6 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x00013e2f     0x14a4 CMakeFiles/pwm_servo.dir/C_/Users/Breno_Couto/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
 
 .debug_str      0x00000000     0x450b
  .debug_str     0x00000000     0x450b CMakeFiles/pwm_servo.dir/pwm_servo.c.obj
